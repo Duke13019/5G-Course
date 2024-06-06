@@ -22,13 +22,11 @@ RUN mkdir build
 WORKDIR /ueransim/build
 RUN /usr/local/bin/cmake ../ && make
 
-
+COPY entrypoint-ue.sh /usr/local/bin/entrypoint-ue.sh
+RUN chmod +x /entrypoint-ue.sh
 
 # Expose necessary ports
 EXPOSE 5000/udp
 
-# Start UERANSIM
-#CMD ["./nr-ue", "--help"]
-
-#UNUSED IN AUTO-DEPLOYMENT
+ENTRYPOINT ["/entrypoint-ue.sh"]
 

@@ -44,5 +44,12 @@ RUN meson build --prefix=/open5gs/install
 RUN ninja -C build
 WORKDIR /open5gs/build
 RUN ninja install
+
+COPY entrypoint-core.sh /usr/local/bin/entrypoint-core.sh
+RUN chmod +x /usr/local/bin/entrypoint-core.sh
+
+
 # Expose necessary ports
 EXPOSE 80 3000 8888 2123/udp 2152/udp
+
+ENTRYPOINT ["/usr/local/bin/entrypoint-core.sh"]
