@@ -22,7 +22,6 @@ services:
     build:
        context: .
        dockerfile: Dockerfile.open5gs
-    entrypoint: ["/usr/local/bin/entrypoint-core.sh"]
     cap_add:
       - NET_ADMIN
     devices:
@@ -39,10 +38,10 @@ services:
       - mongodb
     ports: 
       - "38412"    
-    command:
-      ./../../usr/local/bin/entrypoint-core.sh
     volumes:
       - shared-data:/shared-data
+    command:  
+      ./entrypoint-core.sh
     networks:
       vnet:
         ipv4_address:
@@ -76,11 +75,10 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.gnb
-    entrypoint: ["/usr/local/bin/entrypoint-gnb.sh"]
     volumes:
       - shared-data:/shared-data
     command:  
-      ./../../usr/local/bin/entrypoint-gnb.sh
+      ./entrypoint-gnb.sh
     networks:
       vnet:
         ipv4_address:
@@ -93,7 +91,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.ue
-    entrypoint: ["/usr/local/bin/entrypoint-ue.sh"]
     devices:
       - "/dev/net/tun:/dev/net/tun"
     volumes:

@@ -23,10 +23,10 @@ WORKDIR /ueransim/build
 RUN /usr/local/bin/cmake ../ && make
 
 COPY entrypoint-ue.sh /usr/local/bin/entrypoint-ue.sh
-RUN chmod +x /entrypoint-ue.sh
+RUN chmod +x /usr/local/bin/entrypoint-ue.sh
 
 # Expose necessary ports
 EXPOSE 5000/udp
 
-ENTRYPOINT ["/entrypoint-ue.sh"]
+ENTRYPOINT ["/usr/local/bin/entrypoint-ue.sh"]
 

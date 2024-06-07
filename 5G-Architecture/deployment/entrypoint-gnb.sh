@@ -17,11 +17,13 @@ export GNB_IP
 export CORE_IP
 
 # Update the configuration files using the yq 
-yq eval '.amfConfigs[0].address = env(CORE_IP)' ../configs/open5gs-gnb.yaml -i
-yq eval '.ngapIp = env(GNB_IP)'  ../configs/open5gs-gnb.yaml -i && yq eval '.gtpIp = env(GNB_IP)'  ../configs/open5gs-gnb.yaml -i && yq eval '.linkIp = env(GNB_IP)'  ../configs/open5gs-gnb.yaml -i
+yq eval '.amfConfigs[0].address = env(CORE_IP)' ../config/open5gs-gnb.yaml -i
+yq eval '.ngapIp = env(GNB_IP)'  ../config/open5gs-gnb.yaml -i 
+yq eval '.gtpIp = env(GNB_IP)'  ../config/open5gs-gnb.yaml -i 
+yq eval '.linkIp = env(GNB_IP)'  ../config/open5gs-gnb.yaml -i
 
 # Start gnb services
-./nr-gnb -c ../config/open5gs-gnb.yaml
+exec ./nr-gnb -c ../config/open5gs-gnb.yaml
 
 
 # Keep the container running

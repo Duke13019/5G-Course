@@ -2,7 +2,9 @@
 # Install the needed packages
 apt-get install wget
 wget https://github.com/mikefarah/yq/releases/download/v4.12.2/yq_linux_amd64 -O /usr/bin/yq && chmod +x /usr/bin/yq
-
+wget https://downloads.mongodb.com/compass/mongosh-1.6.1-linux-x64.tgz
+tar -xvzf mongosh-1.6.1-linux-x64.tgz
+mv mongosh-1.6.1-linux-x64/bin/* /usr/local/bin/
 
 # Get the IP address of the Core container
 CORE_IP=$(hostname -I | awk '{print $1}')
@@ -17,11 +19,16 @@ export CORE_IP
 yq eval '.upf.gtpu.server[0].address = env(CORE_IP)' configs/sample.yaml -i
 yq eval '.amf.ngap.server[0].address = env(CORE_IP)' configs/sample.yaml -i
 
+# Add some UEs without the webui
+./../misc/db/open5gs-dbctl add 999700000000001 465B5CE8B199B49FAA5F0A2EE238A6BC  E8ED289DEBA952E4283B54E88E6183CA
+./../misc/db/open5gs-dbctl add 999700000000002 465B5CE8B199B49FAA5F0A2EE238A6BC  E8ED289DEBA952E4283B54E88E6183CA
+./../misc/db/open5gs-dbctl add 999700000000003 465B5CE8B199B49FAA5F0A2EE238A6BC  E8ED289DEBA952E4283B54E88E6183CA
+
 # Start Open5GS Core services
-./tests/app/5gc
+exec ./tests/app/5gc
 
 
 # Keep the container running
-tail -f /dev/null
+#tail -f /dev/null
 
 
