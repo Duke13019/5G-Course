@@ -11,6 +11,10 @@ In this part, in opposite to what have been done on the original repository (htt
 
 Once the docker-compose has executed, I recommend to redirect the log outputs of each container in a dedicated file with  `docker logs deployment_*_1 > log_*.txt`. We should now find in those files proofs of successful execution such as : `NG Setup procedure is successful` within the gnB log and `PDU Session establishment is successful` within the UE log.
 
+Note that for now the possibility to define the number of `UEs` has not been implemented yet. The `entrypoint-ue.sh` file can be modified to do so before rebuilding the the docker images.
+
+## Web UI
+
 To gain access to the web UI, you can run the following commands on the shell and make sure you are on the `deployment/webui/` folder: 
 
   - `npm install`
