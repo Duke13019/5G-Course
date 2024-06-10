@@ -21,7 +21,7 @@ To gain access to the web UI, you can run the following commands on the shell an
   - `npm run build`
   - `npm start`
   
-Within a browser, you can now access to `127.0.0.1:9999` and connect using the `admin:1423` credentials.
+Within a browser (Firefox, not working with Chrome in my case), you can now access to `127.0.0.1:9999` and connect using the `admin:1423` credentials.
 
 
 
