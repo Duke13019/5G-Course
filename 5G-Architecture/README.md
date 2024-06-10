@@ -7,11 +7,11 @@ In this part, unlike what has been done on the original repository (https://gith
  
  
 ## Deployment
-   All the files are in the deployment folder and, in theory, using the command `docker-compose up -d` will launch the environment. Note that you won't have to touch to any file to deploy the network.
+   All the files are in the deployment folder and, in theory, using the command `export NUM_UE=2 && sudo -E docker-compose up -d` will launch the environment. Note that you won't have to touch to any file to deploy the network. The number of `UEs`deployed can be adjusted at our will.
 
 Once the docker-compose is executed, I recommend redirecting the log outputs and errors of each container in a dedicated file with  `docker logs deployment_*_1 &> log_*.txt`. We should now find in those files evidence of successful execution such as : `NG Setup procedure is successful` within the gnB log and `PDU Session establishment is successful` within the UE log.
 
-Note that for now the possibility to define the number of `UEs` has not been implemented yet. The `entrypoint-ue.sh` file can be modified to do so before rebuilding the docker images.
+
 
 ## Web UI
 
