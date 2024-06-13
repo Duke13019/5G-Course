@@ -20,9 +20,11 @@ yq eval '.upf.gtpu.server[0].address = env(CORE_IP)' configs/sample.yaml -i
 yq eval '.amf.ngap.server[0].address = env(CORE_IP)' configs/sample.yaml -i
 
 # Add some UEs without the webui
-./../misc/db/open5gs-dbctl add 999700000000001 465B5CE8B199B49FAA5F0A2EE238A6BC  E8ED289DEBA952E4283B54E88E6183CA
-./../misc/db/open5gs-dbctl add 999700000000002 465B5CE8B199B49FAA5F0A2EE238A6BC  E8ED289DEBA952E4283B54E88E6183CA
-./../misc/db/open5gs-dbctl add 999700000000003 465B5CE8B199B49FAA5F0A2EE238A6BC  E8ED289DEBA952E4283B54E88E6183CA
+./../misc/db/open5gs-dbctl reset
+for i in $(seq -w 1 3); do
+  ./../misc/db/open5gs-dbctl add 99970000000000$i 465B5CE8B199B49FAA5F0A2EE238A6BC E8ED289DEBA952E4283B54E88E6183CA;
+done
+
 
 # Start Open5GS Core services
 exec ./tests/app/5gc
