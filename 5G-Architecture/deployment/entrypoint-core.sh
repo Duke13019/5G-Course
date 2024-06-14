@@ -15,7 +15,7 @@ done
 
 # Add UEs without the webui
 #./../misc/db/open5gs-dbctl reset
-for i in $(seq -f "%03g" 1 $NUM_UE); do
+for i in $(seq -f "%03g" 1 64); do
   IMSI="999700000000$(printf "%03d" $((10#$i)))"
    ./../misc/db/open5gs-dbctl add $IMSI 465B5CE8B199B49FAA5F0A2EE238A6BC E8ED289DEBA952E4283B54E88E6183CA;
 done
