@@ -7,6 +7,19 @@ wget https://downloads.mongodb.com/compass/mongosh-1.6.1-linux-x64.tgz
 tar -xvzf mongosh-1.6.1-linux-x64.tgz
 mv mongosh-1.6.1-linux-x64/bin/* /usr/local/bin/
 
+while ! (nc -z mongodb 27017 && nc -z open5gs 38412 && nc -z webui 3000 && nc -z enb-ueransim 38412 && nc -z ue-ueransim 38412); do
+  echo "Waiting for the services to be ready..."
+  sleep 1
+done
+
+
+# Add UEs without the webui
+#./../misc/db/open5gs-dbctl reset
+for i in $(seq -f "%03g" 1 $NUM_UE); do
+  IMSI="999700000000$(printf "%03d" $((10#$i)))"
+   ./../misc/db/open5gs-dbctl add $IMSI 465B5CE8B199B49FAA5F0A2EE238A6BC E8ED289DEBA952E4283B54E88E6183CA;
+done
+
 
 # Get the IP address of the Core container
 CORE_IP=$(hostname -I | awk '{print $1}')
@@ -27,18 +40,7 @@ yq eval '.amf.ngap.server[0].address = env(CORE_IP)' configs/sample.yaml -i
 ./tests/app/5gc
 
 
-while ! (nc -z mongodb 27017 && nc -z open5gs 38412 && nc -z webui 3000 && nc -z enb-ueransim 38412 && nc -z ue-ueransim 38412); do
-  echo "Waiting for the services to be ready..."
-  sleep 1
-done
 
-
-# Add UEs without the webui
-./../misc/db/open5gs-dbctl reset
-for i in $(seq -f "%03g" 1 $NUM_UE); do
-  IMSI="999700000000$(printf "%03d" $((10#$i)))"
-   ./../misc/db/open5gs-dbctl add $IMSI 465B5CE8B199B49FAA5F0A2EE238A6BC E8ED289DEBA952E4283B54E88E6183CA;
-done
 
 
 # Keep the container running
