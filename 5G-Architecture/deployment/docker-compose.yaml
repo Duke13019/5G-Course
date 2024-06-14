@@ -34,6 +34,7 @@ services:
     environment:
       - DB_URI=mongodb://mongodb/open5gs
       - WAIT_HOSTS=mongodb:27017
+      - NUM_UE=${NUM_UE}
     ports: 
       - "38412"    
     volumes:
