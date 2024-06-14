@@ -50,6 +50,6 @@ RUN chmod +x /usr/local/bin/entrypoint-core.sh
 
 
 # Expose necessary ports
-EXPOSE 80 3000 8888 2123/udp 2152/udp
+EXPOSE 80 3000 8888 2123/udp 2152/udp 38412
 
 ENTRYPOINT ["/usr/local/bin/entrypoint-core.sh"]
