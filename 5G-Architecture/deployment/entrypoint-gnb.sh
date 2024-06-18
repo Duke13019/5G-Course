@@ -33,7 +33,7 @@ yq eval '.linkIp = env(GNB_IP)'  ../config/open5gs-gnb.yaml -i
 
 echo "-----yq handling completed-----"
 # Start gnb services
-./nr-gnb -c ../config/open5gs-gnb.yaml
+#./nr-gnb -c ../config/open5gs-gnb.yaml
 
 
 # Keep the container running

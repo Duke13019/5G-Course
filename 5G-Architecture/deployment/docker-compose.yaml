@@ -34,13 +34,14 @@ services:
     environment:
       - DB_URI=mongodb://mongodb/open5gs
       - WAIT_HOSTS=mongodb:27017
+      - IGNORE_LINES=${IGNORE_LINES}
       - NUM_UE=${NUM_UE}
     ports: 
       - "38412"    
     volumes:
       - shared-data:/shared-data
     command:  
-      ./entrypoint-core.sh
+      ./entrypoint-core.sh 
     networks:
       vnet:
         ipv4_address:

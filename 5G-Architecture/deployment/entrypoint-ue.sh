@@ -14,7 +14,7 @@ export GNB_IP
 yq eval '.gnbSearchList[0] = env(GNB_IP)' ../config/open5gs-ue.yaml  -i
 
 # Start ue services
-./nr-ue -c ../config/open5gs-ue.yaml -n $NUM_UE
+#./nr-ue -c ../config/open5gs-ue.yaml -n $NUM_UE
 
 
 # Keep the container running
