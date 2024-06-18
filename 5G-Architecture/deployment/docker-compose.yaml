@@ -1,4 +1,4 @@
-version: '3.7'
+
 
 services:
   mongodb:
@@ -102,6 +102,8 @@ services:
       - NUM_UE=${NUM_UE}
     command:  
       ./entrypoint-ue.sh
+    depends_on:
+      - enb-ueransim
     networks:
       vnet:
         ipv4_address:

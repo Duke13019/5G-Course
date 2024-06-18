@@ -24,7 +24,7 @@ export CORE_IP
 # Update the configuration files with the Core IP address using the yq 
 yq eval '.upf.gtpu.server[0].address = env(CORE_IP)' configs/sample.yaml -i
 yq eval '.amf.ngap.server[0].address = env(CORE_IP)' configs/sample.yaml -i
-
+yq eval '.global.max.ue = 1024' configs/sample.yaml -i
 
 
 # Start Open5GS Core services

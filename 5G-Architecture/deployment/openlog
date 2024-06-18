@@ -7,7 +7,7 @@ The following NEW packages will be installed:
 Need to get 333 kB of archives.
 After this operation, 938 kB of additional disk space will be used.
 Get:1 http://archive.ubuntu.com/ubuntu noble/main amd64 wget amd64 1.21.4-1ubuntu4 [333 kB]
-Fetched 333 kB in 0s (1105 kB/s)
+Fetched 333 kB in 1s (334 kB/s)
 Selecting previously unselected package wget.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20606 files and directories currently installed.)
 Preparing to unpack .../wget_1.21.4-1ubuntu4_amd64.deb ...
@@ -29,7 +29,7 @@ mongosh-1.6.1-linux-x64/bin/
 mongosh-1.6.1-linux-x64/mongosh.1.gz
 mongosh-1.6.1-linux-x64/bin/mongosh
 mongosh-1.6.1-linux-x64/bin/mongosh_crypt_v1.so
-Current Mongosh Log ID:	667148f56177b6d3a46445b6
+Current Mongosh Log ID:	66719436caead360817bb5bd
 Connecting to:		mongodb://mongodb/open5gs?directConnection=true&appName=mongosh+1.6.1
 Using MongoDB:		7.0.11
 Using Mongosh:		1.6.1
@@ -42,13 +42,13 @@ You can opt-out by running the disableTelemetry() command.
 
 ------
    The server generated these startup warnings when booting
-   2024-06-18T08:44:17.281+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
-   2024-06-18T08:44:17.636+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
-   2024-06-18T08:44:17.637+00:00: vm.max_map_count is too low
+   2024-06-18T14:05:20.807+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2024-06-18T14:05:21.197+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2024-06-18T14:05:21.197+00:00: vm.max_map_count is too low
 ------
 
 { acknowledged: true, deletedCount: 7 }
-Current Mongosh Log ID:	667148f6ced70847f405bc86
+Current Mongosh Log ID:	6671943737403063a77e1c89
 Connecting to:		mongodb://mongodb/open5gs?directConnection=true&appName=mongosh+1.6.1
 Using MongoDB:		7.0.11
 Using Mongosh:		1.6.1
@@ -57,16 +57,16 @@ For mongosh info see: https://docs.mongodb.com/mongodb-shell/
 
 ------
    The server generated these startup warnings when booting
-   2024-06-18T08:44:17.281+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
-   2024-06-18T08:44:17.636+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
-   2024-06-18T08:44:17.637+00:00: vm.max_map_count is too low
+   2024-06-18T14:05:20.807+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2024-06-18T14:05:21.197+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2024-06-18T14:05:21.197+00:00: vm.max_map_count is too low
 ------
 
 {
   acknowledged: true,
-  insertedId: ObjectId("667148f6ed84e3c4128c7e6e")
+  insertedId: ObjectId("66719437e00fcbf771fbba5c")
 }
-Current Mongosh Log ID:	667148f6837a361d2bf178d4
+Current Mongosh Log ID:	66719437073d540443245c0e
 Connecting to:		mongodb://mongodb/open5gs?directConnection=true&appName=mongosh+1.6.1
 Using MongoDB:		7.0.11
 Using Mongosh:		1.6.1
@@ -75,16 +75,16 @@ For mongosh info see: https://docs.mongodb.com/mongodb-shell/
 
 ------
    The server generated these startup warnings when booting
-   2024-06-18T08:44:17.281+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
-   2024-06-18T08:44:17.636+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
-   2024-06-18T08:44:17.637+00:00: vm.max_map_count is too low
+   2024-06-18T14:05:20.807+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2024-06-18T14:05:21.197+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2024-06-18T14:05:21.197+00:00: vm.max_map_count is too low
 ------
 
 {
   acknowledged: true,
-  insertedId: ObjectId("667148f72abd52e866030a55")
+  insertedId: ObjectId("6671943824f23d68a2095f1c")
 }
-Current Mongosh Log ID:	667148f7352b704246e8d1a5
+Current Mongosh Log ID:	667194382aaaf7b463a94807
 Connecting to:		mongodb://mongodb/open5gs?directConnection=true&appName=mongosh+1.6.1
 Using MongoDB:		7.0.11
 Using Mongosh:		1.6.1
@@ -93,16 +93,16 @@ For mongosh info see: https://docs.mongodb.com/mongodb-shell/
 
 ------
    The server generated these startup warnings when booting
-   2024-06-18T08:44:17.281+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
-   2024-06-18T08:44:17.636+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
-   2024-06-18T08:44:17.637+00:00: vm.max_map_count is too low
+   2024-06-18T14:05:20.807+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2024-06-18T14:05:21.197+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2024-06-18T14:05:21.197+00:00: vm.max_map_count is too low
 ------
 
 {
   acknowledged: true,
-  insertedId: ObjectId("667148f7921bb4b1b8a55ef2")
+  insertedId: ObjectId("66719439584ceeaf79c6dd7b")
 }
-Current Mongosh Log ID:	667148f8d754b35baf277f66
+Current Mongosh Log ID:	667194397d5dbbadcffb24b2
 Connecting to:		mongodb://mongodb/open5gs?directConnection=true&appName=mongosh+1.6.1
 Using MongoDB:		7.0.11
 Using Mongosh:		1.6.1
@@ -111,16 +111,16 @@ For mongosh info see: https://docs.mongodb.com/mongodb-shell/
 
 ------
    The server generated these startup warnings when booting
-   2024-06-18T08:44:17.281+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
-   2024-06-18T08:44:17.636+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
-   2024-06-18T08:44:17.637+00:00: vm.max_map_count is too low
+   2024-06-18T14:05:20.807+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2024-06-18T14:05:21.197+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2024-06-18T14:05:21.197+00:00: vm.max_map_count is too low
 ------
 
 {
   acknowledged: true,
-  insertedId: ObjectId("667148f8aec3690f5637aa7d")
+  insertedId: ObjectId("667194391106046a8f7c0baa")
 }
-Current Mongosh Log ID:	667148f90543b78616b29b71
+Current Mongosh Log ID:	6671943a5c47722c91cef3ff
 Connecting to:		mongodb://mongodb/open5gs?directConnection=true&appName=mongosh+1.6.1
 Using MongoDB:		7.0.11
 Using Mongosh:		1.6.1
@@ -129,16 +129,16 @@ For mongosh info see: https://docs.mongodb.com/mongodb-shell/
 
 ------
    The server generated these startup warnings when booting
-   2024-06-18T08:44:17.281+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
-   2024-06-18T08:44:17.636+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
-   2024-06-18T08:44:17.637+00:00: vm.max_map_count is too low
+   2024-06-18T14:05:20.807+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2024-06-18T14:05:21.197+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2024-06-18T14:05:21.197+00:00: vm.max_map_count is too low
 ------
 
 {
   acknowledged: true,
-  insertedId: ObjectId("667148f907cea981d74b5ded")
+  insertedId: ObjectId("6671943a45c3aeaad9d77c6a")
 }
-Current Mongosh Log ID:	667148fa71ab47aafdaf6bc1
+Current Mongosh Log ID:	6671943bbf51b7ba734ca891
 Connecting to:		mongodb://mongodb/open5gs?directConnection=true&appName=mongosh+1.6.1
 Using MongoDB:		7.0.11
 Using Mongosh:		1.6.1
@@ -147,16 +147,16 @@ For mongosh info see: https://docs.mongodb.com/mongodb-shell/
 
 ------
    The server generated these startup warnings when booting
-   2024-06-18T08:44:17.281+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
-   2024-06-18T08:44:17.636+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
-   2024-06-18T08:44:17.637+00:00: vm.max_map_count is too low
+   2024-06-18T14:05:20.807+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2024-06-18T14:05:21.197+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2024-06-18T14:05:21.197+00:00: vm.max_map_count is too low
 ------
 
 {
   acknowledged: true,
-  insertedId: ObjectId("667148fa77788cbd307a5287")
+  insertedId: ObjectId("6671943b57c5a6c86348b5b2")
 }
-Current Mongosh Log ID:	667148faa073869372040d1d
+Current Mongosh Log ID:	6671943b1a1c2a70b2bfaa10
 Connecting to:		mongodb://mongodb/open5gs?directConnection=true&appName=mongosh+1.6.1
 Using MongoDB:		7.0.11
 Using Mongosh:		1.6.1
@@ -165,346 +165,364 @@ For mongosh info see: https://docs.mongodb.com/mongodb-shell/
 
 ------
    The server generated these startup warnings when booting
-   2024-06-18T08:44:17.281+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
-   2024-06-18T08:44:17.636+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
-   2024-06-18T08:44:17.637+00:00: vm.max_map_count is too low
+   2024-06-18T14:05:20.807+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2024-06-18T14:05:21.197+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2024-06-18T14:05:21.197+00:00: vm.max_map_count is too low
 ------
 
 {
   acknowledged: true,
-  insertedId: ObjectId("667148fb94e6c4123ba5608e")
+  insertedId: ObjectId("6671943c52d591def5deb710")
+}
+Current Mongosh Log ID:	6671943c1612792b1719756f
+Connecting to:		mongodb://mongodb/open5gs?directConnection=true&appName=mongosh+1.6.1
+Using MongoDB:		7.0.11
+Using Mongosh:		1.6.1
+
+For mongosh info see: https://docs.mongodb.com/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2024-06-18T14:05:20.807+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2024-06-18T14:05:21.197+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2024-06-18T14:05:21.197+00:00: vm.max_map_count is too low
+------
+
+{
+  acknowledged: true,
+  insertedId: ObjectId("6671943cd5c353bba03d7b8b")
 }
 Open5GS daemon v2.7.1-35-gd0f6288
 
-[32m06/18 08:44:43.074[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
-[32m06/18 08:44:43.075[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.10]:7777 (../lib/sbi/nghttp2-server.c:414)
-[32m06/18 08:44:43.075[0m: [[33mapp[0m] [1;32mINFO[0m: NRF initialize...done (../src/nrf/app.c:31)
+[32m06/18 14:05:49.008[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
+[32m06/18 14:05:49.009[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.10]:7777 (../lib/sbi/nghttp2-server.c:414)
+[32m06/18 14:05:49.009[0m: [[33mapp[0m] [1;32mINFO[0m: NRF initialize...done (../src/nrf/app.c:31)
 Open5GS daemon v2.7.1-35-gd0f6288
 
-[32m06/18 08:44:43.132[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
-[32m06/18 08:44:43.135[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/context.c:426)
-[32m06/18 08:44:43.135[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.200]:7777 (../lib/sbi/nghttp2-server.c:414)
-[32m06/18 08:44:43.135[0m: [[33mapp[0m] [1;32mINFO[0m: SCP initialize...done (../src/scp/app.c:31)
-[32m06/18 08:44:43.136[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: [02057430-2d4f-41ef-8f99-b5a800e1f5d5] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
-[32m06/18 08:44:43.136[0m: [[33msbi[0m] [1;32mINFO[0m: [02057430-2d4f-41ef-8f99-b5a800e1f5d5] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: [0205a23e-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.136484+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: [0205a6a8-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.136587+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: [0205a806-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.136619+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: [0205a964-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.136654+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: [0205aaae-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.136687+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: [0205ae8c-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.136787+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.136[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.136[0m: [[33msbi[0m] [1;32mINFO[0m: [0205a23e-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.136484+00:00 [duration:86400,validity:86399.999687,patch:43199.999843] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: [0205afae-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.136815+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: [0205b0e4-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.136846+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.136[0m: [[33mnrf[0m] [1;32mINFO[0m: [0205b260-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.136883+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.136[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.136[0m: [[33msbi[0m] [1;32mINFO[0m: [0205a6a8-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.136587+00:00 [duration:86400,validity:86399.999611,patch:43199.999805] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.137[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.137[0m: [[33msbi[0m] [1;32mINFO[0m: [0205a806-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.136619+00:00 [duration:86400,validity:86399.999592,patch:43199.999796] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.137[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.137[0m: [[33msbi[0m] [1;32mINFO[0m: [0205a964-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.136654+00:00 [duration:86400,validity:86399.999613,patch:43199.999806] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.137[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.137[0m: [[33msbi[0m] [1;32mINFO[0m: [0205aaae-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.136687+00:00 [duration:86400,validity:86399.999614,patch:43199.999807] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.137[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.137[0m: [[33msbi[0m] [1;32mINFO[0m: [0205ae8c-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.136787+00:00 [duration:86400,validity:86399.999674,patch:43199.999837] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.137[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.137[0m: [[33msbi[0m] [1;32mINFO[0m: [0205b0e4-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.136846+00:00 [duration:86400,validity:86399.999633,patch:43199.999816] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.137[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.137[0m: [[33msbi[0m] [1;32mINFO[0m: [0205afae-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.136815+00:00 [duration:86400,validity:86399.999587,patch:43199.999793] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.137[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.137[0m: [[33msbi[0m] [1;32mINFO[0m: [0205b260-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.136883+00:00 [duration:86400,validity:86399.999620,patch:43199.999810] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.065[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
+[32m06/18 14:05:49.069[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/context.c:426)
+[32m06/18 14:05:49.069[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.200]:7777 (../lib/sbi/nghttp2-server.c:414)
+[32m06/18 14:05:49.070[0m: [[33mapp[0m] [1;32mINFO[0m: SCP initialize...done (../src/scp/app.c:31)
+[32m06/18 14:05:49.070[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.070[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd69abb4-2d7b-41ef-baf6-3f76fd7b9941] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+[32m06/18 14:05:49.071[0m: [[33msbi[0m] [1;32mINFO[0m: [dd69abb4-2d7b-41ef-baf6-3f76fd7b9941] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+[32m06/18 14:05:49.071[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.071[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd6a12e8-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.071878+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.071[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.071[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd6a1752-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.071967+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.072[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.072[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd6a213e-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.072223+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.072[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.072[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd6a24d6-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.072312+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.072[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.072[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd6a279c-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.072383+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.072[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.072[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd6a2a30-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.072448+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.072[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.072[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd6a2d00-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.072520+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.072[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.072[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd6a2f94-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.072586+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.072[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.072[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd6a32f0-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.072678+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.072[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.073[0m: [[33msbi[0m] [1;32mINFO[0m: [dd6a12e8-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.071878+00:00 [duration:86400,validity:86399.998847,patch:43199.999423] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.073[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.073[0m: [[33msbi[0m] [1;32mINFO[0m: [dd6a1752-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.071967+00:00 [duration:86400,validity:86399.998889,patch:43199.999444] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.073[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.073[0m: [[33msbi[0m] [1;32mINFO[0m: [dd6a279c-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.072383+00:00 [duration:86400,validity:86399.999131,patch:43199.999565] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.073[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.073[0m: [[33msbi[0m] [1;32mINFO[0m: [dd6a213e-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.072223+00:00 [duration:86400,validity:86399.998938,patch:43199.999469] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.073[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.073[0m: [[33msbi[0m] [1;32mINFO[0m: [dd6a24d6-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.072312+00:00 [duration:86400,validity:86399.998995,patch:43199.999497] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.073[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.073[0m: [[33msbi[0m] [1;32mINFO[0m: [dd6a2a30-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.072448+00:00 [duration:86400,validity:86399.999040,patch:43199.999520] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.073[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.073[0m: [[33msbi[0m] [1;32mINFO[0m: [dd6a2d00-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.072520+00:00 [duration:86400,validity:86399.999079,patch:43199.999539] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.073[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.073[0m: [[33msbi[0m] [1;32mINFO[0m: [dd6a2f94-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.072586+00:00 [duration:86400,validity:86399.999071,patch:43199.999535] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.073[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.073[0m: [[33msbi[0m] [1;32mINFO[0m: [dd6a32f0-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.072678+00:00 [duration:86400,validity:86399.999083,patch:43199.999541] (../lib/sbi/nnrf-handler.c:845)
 Open5GS daemon v2.7.1-35-gd0f6288
 
-[32m06/18 08:44:43.185[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
-[32m06/18 08:44:43.211[0m: [[33mmetrics[0m] [1;32mINFO[0m: metrics_server() [http://127.0.0.7]:9090 (../lib/metrics/prometheus/context.c:299)
-[32m06/18 08:44:43.211[0m: [[33mpfcp[0m] [1;32mINFO[0m: pfcp_server() [127.0.0.7]:8805 (../lib/pfcp/path.c:30)
-[32m06/18 08:44:43.211[0m: [[33mgtp[0m] [1;32mINFO[0m: gtp_server() [173.22.0.4]:2152 (../lib/gtp/path.c:30)
-[32m06/18 08:44:43.211[0m: [[33mapp[0m] [1;32mINFO[0m: UPF initialize...done (../src/upf/app.c:31)
+[32m06/18 14:05:49.118[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
+[32m06/18 14:05:49.142[0m: [[33mmetrics[0m] [1;32mINFO[0m: metrics_server() [http://127.0.0.7]:9090 (../lib/metrics/prometheus/context.c:299)
+[32m06/18 14:05:49.142[0m: [[33mpfcp[0m] [1;32mINFO[0m: pfcp_server() [127.0.0.7]:8805 (../lib/pfcp/path.c:30)
+[32m06/18 14:05:49.142[0m: [[33mgtp[0m] [1;32mINFO[0m: gtp_server() [173.22.0.4]:2152 (../lib/gtp/path.c:30)
+[32m06/18 14:05:49.143[0m: [[33mapp[0m] [1;32mINFO[0m: UPF initialize...done (../src/upf/app.c:31)
 Open5GS daemon v2.7.1-35-gd0f6288
 
-[32m06/18 08:44:43.232[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
-[32m06/18 08:44:43.257[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
-[32m06/18 08:44:43.257[0m: [[33mmetrics[0m] [1;32mINFO[0m: metrics_server() [http://127.0.0.4]:9090 (../lib/metrics/prometheus/context.c:299)
-[32m06/18 08:44:43.271[0m: [[33mgtp[0m] [1;32mINFO[0m: gtp_server() [127.0.0.4]:2123 (../lib/gtp/path.c:30)
-[32m06/18 08:44:43.271[0m: [[33mgtp[0m] [1;32mINFO[0m: gtp_server() [127.0.0.4]:2152 (../lib/gtp/path.c:30)
-[32m06/18 08:44:43.271[0m: [[33mpfcp[0m] [1;32mINFO[0m: pfcp_server() [127.0.0.4]:8805 (../lib/pfcp/path.c:30)
-[32m06/18 08:44:43.271[0m: [[33mpfcp[0m] [1;32mINFO[0m: ogs_pfcp_connect() [127.0.0.7]:8805 (../lib/pfcp/path.c:61)
-[32m06/18 08:44:43.271[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nsmf-pdusession] (../lib/sbi/context.c:1829)
-[32m06/18 08:44:43.271[0m: [[33mpfcp[0m] [1;32mINFO[0m: ogs_pfcp_connect() [127.0.0.4]:8805 (../lib/pfcp/path.c:61)
-[32m06/18 08:44:43.271[0m: [[33mupf[0m] [1;32mINFO[0m: PFCP associated [127.0.0.4]:8805 (../src/upf/pfcp-sm.c:184)
-[32m06/18 08:44:43.271[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.4]:7777 (../lib/sbi/nghttp2-server.c:414)
-[32m06/18 08:44:43.271[0m: [[33mapp[0m] [1;32mINFO[0m: SMF initialize...done (../src/smf/app.c:31)
-[32m06/18 08:44:43.271[0m: [[33msmf[0m] [1;32mINFO[0m: PFCP associated [127.0.0.7]:8805 (../src/smf/pfcp-sm.c:203)
-[32m06/18 08:44:43.271[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.271[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.272[0m: [[33mnrf[0m] [1;32mINFO[0m: [0217b6cc-2d4f-41ef-a384-e9627e6cfd07] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
-[32m06/18 08:44:43.272[0m: [[33msbi[0m] [1;32mINFO[0m: [0217b6cc-2d4f-41ef-a384-e9627e6cfd07] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
-[32m06/18 08:44:43.272[0m: [[33msbi[0m] [1;32mINFO[0m: [0217b6cc-2d4f-41ef-a384-e9627e6cfd07] (NRF-notify) NF Profile updated [type:SMF] (../lib/sbi/nnrf-handler.c:1104)
-[32m06/18 08:44:43.272[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.272[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.272[0m: [[33msbi[0m] [1;32mINFO[0m: [0217b6cc-2d4f-41ef-a384-e9627e6cfd07] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
-[32m06/18 08:44:43.272[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.272[0m: [[33mnrf[0m] [1;32mINFO[0m: [021a74a2-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.272934+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.273[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.273[0m: [[33mnrf[0m] [1;32mINFO[0m: [021a7790-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.273005+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.273[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.273[0m: [[33mnrf[0m] [1;32mINFO[0m: [021a7a4c-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.273074+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.273[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.273[0m: [[33mnrf[0m] [1;32mINFO[0m: [021a7c90-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.273134+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.273[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.273[0m: [[33mnrf[0m] [1;32mINFO[0m: [021a7dbc-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.273163+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.273[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.273[0m: [[33msbi[0m] [1;32mINFO[0m: [021a74a2-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.272934+00:00 [duration:86400,validity:86399.999754,patch:43199.999877] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.273[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.273[0m: [[33msbi[0m] [1;32mINFO[0m: [021a7790-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.273005+00:00 [duration:86400,validity:86399.999727,patch:43199.999863] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.273[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.273[0m: [[33msbi[0m] [1;32mINFO[0m: [021a7a4c-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.273074+00:00 [duration:86400,validity:86399.999633,patch:43199.999816] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.273[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.273[0m: [[33msbi[0m] [1;32mINFO[0m: [021a7c90-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.273134+00:00 [duration:86400,validity:86399.999655,patch:43199.999827] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.273[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.273[0m: [[33msbi[0m] [1;32mINFO[0m: [021a7dbc-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.273163+00:00 [duration:86400,validity:86399.999638,patch:43199.999819] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.166[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
+[32m06/18 14:05:49.192[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+[32m06/18 14:05:49.193[0m: [[33mmetrics[0m] [1;32mINFO[0m: metrics_server() [http://127.0.0.4]:9090 (../lib/metrics/prometheus/context.c:299)
+[32m06/18 14:05:49.205[0m: [[33mgtp[0m] [1;32mINFO[0m: gtp_server() [127.0.0.4]:2123 (../lib/gtp/path.c:30)
+[32m06/18 14:05:49.205[0m: [[33mgtp[0m] [1;32mINFO[0m: gtp_server() [127.0.0.4]:2152 (../lib/gtp/path.c:30)
+[32m06/18 14:05:49.206[0m: [[33mpfcp[0m] [1;32mINFO[0m: pfcp_server() [127.0.0.4]:8805 (../lib/pfcp/path.c:30)
+[32m06/18 14:05:49.206[0m: [[33mpfcp[0m] [1;32mINFO[0m: ogs_pfcp_connect() [127.0.0.7]:8805 (../lib/pfcp/path.c:61)
+[32m06/18 14:05:49.206[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nsmf-pdusession] (../lib/sbi/context.c:1829)
+[32m06/18 14:05:49.206[0m: [[33mpfcp[0m] [1;32mINFO[0m: ogs_pfcp_connect() [127.0.0.4]:8805 (../lib/pfcp/path.c:61)
+[32m06/18 14:05:49.206[0m: [[33mupf[0m] [1;32mINFO[0m: PFCP associated [127.0.0.4]:8805 (../src/upf/pfcp-sm.c:184)
+[32m06/18 14:05:49.206[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.4]:7777 (../lib/sbi/nghttp2-server.c:414)
+[32m06/18 14:05:49.206[0m: [[33mapp[0m] [1;32mINFO[0m: SMF initialize...done (../src/smf/app.c:31)
+[32m06/18 14:05:49.206[0m: [[33msmf[0m] [1;32mINFO[0m: PFCP associated [127.0.0.7]:8805 (../src/smf/pfcp-sm.c:203)
+[32m06/18 14:05:49.206[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.206[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.206[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd7c2104-2d7b-41ef-88f7-f5499b48eadb] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+[32m06/18 14:05:49.207[0m: [[33msbi[0m] [1;32mINFO[0m: [dd7c2104-2d7b-41ef-88f7-f5499b48eadb] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
+[32m06/18 14:05:49.207[0m: [[33msbi[0m] [1;32mINFO[0m: [dd7c2104-2d7b-41ef-88f7-f5499b48eadb] (NRF-notify) NF Profile updated [type:SMF] (../lib/sbi/nnrf-handler.c:1104)
+[32m06/18 14:05:49.207[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.207[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.207[0m: [[33msbi[0m] [1;32mINFO[0m: [dd7c2104-2d7b-41ef-88f7-f5499b48eadb] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+[32m06/18 14:05:49.207[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.207[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd7ecb84-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.207655+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.207[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.207[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd7ed016-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.207769+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.207[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.207[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd7ed566-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.207904+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.207[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.207[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd7ed6f6-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.207942+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.207[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.207[0m: [[33msbi[0m] [1;32mINFO[0m: [dd7ecb84-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.207655+00:00 [duration:86400,validity:86399.999685,patch:43199.999842] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.208[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.208[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd7eda20-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.208024+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.208[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.208[0m: [[33msbi[0m] [1;32mINFO[0m: [dd7ed016-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.207769+00:00 [duration:86400,validity:86399.999628,patch:43199.999814] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.208[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.208[0m: [[33msbi[0m] [1;32mINFO[0m: [dd7ed566-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.207904+00:00 [duration:86400,validity:86399.999623,patch:43199.999811] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.208[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.208[0m: [[33msbi[0m] [1;32mINFO[0m: [dd7ed6f6-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.207942+00:00 [duration:86400,validity:86399.999563,patch:43199.999781] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.208[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.208[0m: [[33msbi[0m] [1;32mINFO[0m: [dd7eda20-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.208024+00:00 [duration:86400,validity:86399.999578,patch:43199.999789] (../lib/sbi/nnrf-handler.c:845)
 Open5GS daemon v2.7.1-35-gd0f6288
 
-[32m06/18 08:44:43.278[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
-[32m06/18 08:44:43.279[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
-[32m06/18 08:44:43.279[0m: [[33mmetrics[0m] [1;32mINFO[0m: metrics_server() [http://127.0.0.5]:9090 (../lib/metrics/prometheus/context.c:299)
-[32m06/18 08:44:43.279[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [namf-comm] (../lib/sbi/context.c:1829)
-[32m06/18 08:44:43.280[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.5]:7777 (../lib/sbi/nghttp2-server.c:414)
-[32m06/18 08:44:43.280[0m: [[33mamf[0m] [1;32mINFO[0m: ngap_server() [173.22.0.4]:38412 (../src/amf/ngap-sctp.c:61)
-[32m06/18 08:44:43.280[0m: [[33msctp[0m] [1;32mINFO[0m: AMF initialize...done (../src/amf/app.c:33)
-[32m06/18 08:44:43.280[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.280[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.280[0m: [[33mnrf[0m] [1;32mINFO[0m: [021b6bfa-2d4f-41ef-8194-2933c8c423f3] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
-[32m06/18 08:44:43.280[0m: [[33msbi[0m] [1;32mINFO[0m: [021b6bfa-2d4f-41ef-8194-2933c8c423f3] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
-[32m06/18 08:44:43.280[0m: [[33msbi[0m] [1;32mINFO[0m: [021b6bfa-2d4f-41ef-8194-2933c8c423f3] (NRF-notify) NF Profile updated [type:AMF] (../lib/sbi/nnrf-handler.c:1104)
-[32m06/18 08:44:43.280[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.280[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.280[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../src/scp/sbi-path.c:419)
-[32m06/18 08:44:43.281[0m: [[33msbi[0m] [1;32mINFO[0m: [021b6bfa-2d4f-41ef-8194-2933c8c423f3] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
-[32m06/18 08:44:43.281[0m: [[33msbi[0m] [1;32mINFO[0m: [021b6bfa-2d4f-41ef-8194-2933c8c423f3] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
-[32m06/18 08:44:43.281[0m: [[33msbi[0m] [1;32mINFO[0m: [021b6bfa-2d4f-41ef-8194-2933c8c423f3] (NRF-notify) NF Profile updated [type:AMF] (../lib/sbi/nnrf-handler.c:1104)
-[32m06/18 08:44:43.281[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.281[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.281[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.281[0m: [[33mnrf[0m] [1;32mINFO[0m: [021bbf10-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.281392+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.281[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.281[0m: [[33mnrf[0m] [1;32mINFO[0m: [021bc168-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.281449+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.281[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.281[0m: [[33mnrf[0m] [1;32mINFO[0m: [021bc3f2-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.281513+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.281[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.281[0m: [[33mnrf[0m] [1;32mINFO[0m: [021bc58c-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.281555+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.281[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.281[0m: [[33mnrf[0m] [1;32mINFO[0m: [021bc9ba-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.281661+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.281[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.281[0m: [[33mnrf[0m] [1;32mINFO[0m: [021bcc1c-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.281724+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.281[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.281[0m: [[33mnrf[0m] [1;32mINFO[0m: [021bcdc0-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.281764+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.281[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.281[0m: [[33msbi[0m] [1;32mINFO[0m: [021bbf10-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.281392+00:00 [duration:86400,validity:86399.999585,patch:43199.999792] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.281[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.281[0m: [[33msbi[0m] [1;32mINFO[0m: [021bc168-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.281449+00:00 [duration:86400,validity:86399.999587,patch:43199.999793] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.281[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.281[0m: [[33msbi[0m] [1;32mINFO[0m: [021bc3f2-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.281513+00:00 [duration:86400,validity:86399.999592,patch:43199.999796] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.281[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.281[0m: [[33msbi[0m] [1;32mINFO[0m: [021bc58c-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.281555+00:00 [duration:86400,validity:86399.999570,patch:43199.999785] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.282[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.282[0m: [[33msbi[0m] [1;32mINFO[0m: [021bc9ba-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.281661+00:00 [duration:86400,validity:86399.999637,patch:43199.999818] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.282[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.282[0m: [[33msbi[0m] [1;32mINFO[0m: [021bcc1c-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.281724+00:00 [duration:86400,validity:86399.999660,patch:43199.999830] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.282[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.282[0m: [[33msbi[0m] [1;32mINFO[0m: [021bcdc0-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.281764+00:00 [duration:86400,validity:86399.999656,patch:43199.999828] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.212[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
+[32m06/18 14:05:49.214[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+[32m06/18 14:05:49.214[0m: [[33mmetrics[0m] [1;32mINFO[0m: metrics_server() [http://127.0.0.5]:9090 (../lib/metrics/prometheus/context.c:299)
+[32m06/18 14:05:49.214[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [namf-comm] (../lib/sbi/context.c:1829)
+[32m06/18 14:05:49.214[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.5]:7777 (../lib/sbi/nghttp2-server.c:414)
+[32m06/18 14:05:49.214[0m: [[33mamf[0m] [1;32mINFO[0m: ngap_server() [173.22.0.4]:38412 (../src/amf/ngap-sctp.c:61)
+[32m06/18 14:05:49.214[0m: [[33msctp[0m] [1;32mINFO[0m: AMF initialize...done (../src/amf/app.c:33)
+[32m06/18 14:05:49.215[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.215[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.215[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd7fb760-2d7b-41ef-9808-85e051a75891] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+[32m06/18 14:05:49.215[0m: [[33msbi[0m] [1;32mINFO[0m: [dd7fb760-2d7b-41ef-9808-85e051a75891] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
+[32m06/18 14:05:49.215[0m: [[33msbi[0m] [1;32mINFO[0m: [dd7fb760-2d7b-41ef-9808-85e051a75891] (NRF-notify) NF Profile updated [type:AMF] (../lib/sbi/nnrf-handler.c:1104)
+[32m06/18 14:05:49.215[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.215[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.215[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../src/scp/sbi-path.c:419)
+[32m06/18 14:05:49.215[0m: [[33msbi[0m] [1;32mINFO[0m: [dd7fb760-2d7b-41ef-9808-85e051a75891] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+[32m06/18 14:05:49.215[0m: [[33msbi[0m] [1;32mINFO[0m: [dd7fb760-2d7b-41ef-9808-85e051a75891] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
+[32m06/18 14:05:49.215[0m: [[33msbi[0m] [1;32mINFO[0m: [dd7fb760-2d7b-41ef-9808-85e051a75891] (NRF-notify) NF Profile updated [type:AMF] (../lib/sbi/nnrf-handler.c:1104)
+[32m06/18 14:05:49.215[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.215[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.216[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.216[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd801598-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.216105+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.216[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.216[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd801a20-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.216215+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.216[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.216[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd801b4c-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.216242+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.216[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.216[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd801f5c-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.216347+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.216[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.216[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd802060-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.216374+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.216[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.216[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd80238a-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.216458+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.216[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.216[0m: [[33msbi[0m] [1;32mINFO[0m: [dd801598-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.216105+00:00 [duration:86400,validity:86399.999633,patch:43199.999816] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.216[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.216[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd80251a-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.216495+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.216[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.216[0m: [[33msbi[0m] [1;32mINFO[0m: [dd801a20-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.216215+00:00 [duration:86400,validity:86399.999606,patch:43199.999803] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.216[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.216[0m: [[33msbi[0m] [1;32mINFO[0m: [dd801b4c-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.216242+00:00 [duration:86400,validity:86399.999576,patch:43199.999788] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.216[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.216[0m: [[33msbi[0m] [1;32mINFO[0m: [dd801f5c-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.216347+00:00 [duration:86400,validity:86399.999625,patch:43199.999812] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.216[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.216[0m: [[33msbi[0m] [1;32mINFO[0m: [dd802060-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.216374+00:00 [duration:86400,validity:86399.999549,patch:43199.999774] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.216[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.216[0m: [[33msbi[0m] [1;32mINFO[0m: [dd80238a-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.216458+00:00 [duration:86400,validity:86399.999582,patch:43199.999791] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.216[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.216[0m: [[33msbi[0m] [1;32mINFO[0m: [dd80251a-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.216495+00:00 [duration:86400,validity:86399.999562,patch:43199.999781] (../lib/sbi/nnrf-handler.c:845)
 Open5GS daemon v2.7.1-35-gd0f6288
 
-[32m06/18 08:44:43.334[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
-[32m06/18 08:44:43.337[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
-[32m06/18 08:44:43.337[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nausf-auth] (../lib/sbi/context.c:1829)
-[32m06/18 08:44:43.338[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:414)
-[32m06/18 08:44:43.338[0m: [[33mapp[0m] [1;32mINFO[0m: AUSF initialize...done (../src/ausf/app.c:31)
-[32m06/18 08:44:43.339[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.11:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.339[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.11:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.339[0m: [[33mnrf[0m] [1;32mINFO[0m: [0224521a-2d4f-41ef-9be1-8df8370e471a] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
-[32m06/18 08:44:43.339[0m: [[33msbi[0m] [1;32mINFO[0m: [0224521a-2d4f-41ef-9be1-8df8370e471a] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
-[32m06/18 08:44:43.339[0m: [[33msbi[0m] [1;32mINFO[0m: [0224521a-2d4f-41ef-9be1-8df8370e471a] (NRF-notify) NF Profile updated [type:AUSF] (../lib/sbi/nnrf-handler.c:1104)
-[32m06/18 08:44:43.339[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.11:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.339[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.11:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.339[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/scp/sbi-path.c:419)
-[32m06/18 08:44:43.340[0m: [[33msbi[0m] [1;32mINFO[0m: [0224521a-2d4f-41ef-9be1-8df8370e471a] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
-[32m06/18 08:44:43.340[0m: [[33msbi[0m] [1;32mINFO[0m: [0224521a-2d4f-41ef-9be1-8df8370e471a] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
-[32m06/18 08:44:43.340[0m: [[33msbi[0m] [1;32mINFO[0m: [0224521a-2d4f-41ef-9be1-8df8370e471a] (NRF-notify) NF Profile updated [type:AUSF] (../lib/sbi/nnrf-handler.c:1104)
-[32m06/18 08:44:43.340[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.11:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.340[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.11:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.340[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.11:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.340[0m: [[33mnrf[0m] [1;32mINFO[0m: [0224d456-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.340937+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.341[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.11:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.341[0m: [[33mnrf[0m] [1;32mINFO[0m: [0224ddf2-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.341173+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.341[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.341[0m: [[33msbi[0m] [1;32mINFO[0m: [0224d456-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.340937+00:00 [duration:86400,validity:86399.999507,patch:43199.999753] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.341[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.341[0m: [[33msbi[0m] [1;32mINFO[0m: [0224ddf2-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.341173+00:00 [duration:86400,validity:86399.999664,patch:43199.999832] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.267[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
+[32m06/18 14:05:49.270[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+[32m06/18 14:05:49.270[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nausf-auth] (../lib/sbi/context.c:1829)
+[32m06/18 14:05:49.271[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:414)
+[32m06/18 14:05:49.271[0m: [[33mapp[0m] [1;32mINFO[0m: AUSF initialize...done (../src/ausf/app.c:31)
+[32m06/18 14:05:49.272[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.11:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.272[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.11:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.272[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd886a86-2d7b-41ef-b3e3-83df0d6f0ff5] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+[32m06/18 14:05:49.272[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/scp/sbi-path.c:419)
+[32m06/18 14:05:49.272[0m: [[33msbi[0m] [1;32mINFO[0m: [dd886a86-2d7b-41ef-b3e3-83df0d6f0ff5] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
+[32m06/18 14:05:49.272[0m: [[33msbi[0m] [1;32mINFO[0m: [dd886a86-2d7b-41ef-b3e3-83df0d6f0ff5] (NRF-notify) NF Profile updated [type:AUSF] (../lib/sbi/nnrf-handler.c:1104)
+[32m06/18 14:05:49.272[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.11:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.272[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.11:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.273[0m: [[33msbi[0m] [1;32mINFO[0m: [dd886a86-2d7b-41ef-b3e3-83df0d6f0ff5] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
+[32m06/18 14:05:49.273[0m: [[33msbi[0m] [1;32mINFO[0m: [dd886a86-2d7b-41ef-b3e3-83df0d6f0ff5] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+[32m06/18 14:05:49.273[0m: [[33msbi[0m] [1;32mINFO[0m: [dd886a86-2d7b-41ef-b3e3-83df0d6f0ff5] (NRF-notify) NF Profile updated [type:AUSF] (../lib/sbi/nnrf-handler.c:1104)
+[32m06/18 14:05:49.273[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.11:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.273[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.11:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.273[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.11:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.273[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd88da20-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.273573+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.273[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.11:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.273[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd88dfac-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.273705+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.274[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.274[0m: [[33msbi[0m] [1;32mINFO[0m: [dd88da20-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.273573+00:00 [duration:86400,validity:86399.999530,patch:43199.999765] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.274[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.274[0m: [[33msbi[0m] [1;32mINFO[0m: [dd88dfac-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.273705+00:00 [duration:86400,validity:86399.999588,patch:43199.999794] (../lib/sbi/nnrf-handler.c:845)
 Open5GS daemon v2.7.1-35-gd0f6288
 
-[32m06/18 08:44:43.384[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
-[32m06/18 08:44:43.387[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
-[32m06/18 08:44:43.387[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nudm-ueau] (../lib/sbi/context.c:1829)
-[32m06/18 08:44:43.387[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nudm-uecm] (../lib/sbi/context.c:1829)
-[32m06/18 08:44:43.387[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nudm-sdm] (../lib/sbi/context.c:1829)
-[32m06/18 08:44:43.388[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:414)
-[32m06/18 08:44:43.388[0m: [[33mapp[0m] [1;32mINFO[0m: UDM initialize...done (../src/udm/app.c:31)
-[32m06/18 08:44:43.389[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.389[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.389[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.389[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.389[0m: [[33mnrf[0m] [1;32mINFO[0m: [022bed54-2d4f-41ef-a4ed-1b47b17c29ca] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;32mINFO[0m: [022bed54-2d4f-41ef-a4ed-1b47b17c29ca] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;32mINFO[0m: [022bed54-2d4f-41ef-a4ed-1b47b17c29ca] (NRF-notify) NF Profile updated [type:UDM] (../lib/sbi/nnrf-handler.c:1104)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.390[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../src/scp/sbi-path.c:419)
-[32m06/18 08:44:43.390[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../src/scp/sbi-path.c:419)
-[32m06/18 08:44:43.390[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/scp/sbi-path.c:419)
-[32m06/18 08:44:43.390[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/scp/sbi-path.c:419)
-[32m06/18 08:44:43.390[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.11:7777] (../src/scp/sbi-path.c:419)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;32mINFO[0m: [022bed54-2d4f-41ef-a4ed-1b47b17c29ca] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;32mINFO[0m: [022bed54-2d4f-41ef-a4ed-1b47b17c29ca] (NRF-notify) NF Profile updated [type:UDM] (../lib/sbi/nnrf-handler.c:1104)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;32mINFO[0m: [022bed54-2d4f-41ef-a4ed-1b47b17c29ca] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;32mINFO[0m: [022bed54-2d4f-41ef-a4ed-1b47b17c29ca] (NRF-notify) NF Profile updated [type:UDM] (../lib/sbi/nnrf-handler.c:1104)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;36mWARNING[0m: [022bed54-2d4f-41ef-a4ed-1b47b17c29ca] (NRF-notify) NF has already been added [type:UDM] (../lib/sbi/nnrf-handler.c:1092)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;32mINFO[0m: [022bed54-2d4f-41ef-a4ed-1b47b17c29ca] (NRF-notify) NF Profile updated [type:UDM] (../lib/sbi/nnrf-handler.c:1104)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;36mWARNING[0m: NF EndPoint(addr) updated [127.0.0.12:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;36mWARNING[0m: NF EndPoint(addr) updated [127.0.0.12:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.390[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.391[0m: [[33msbi[0m] [1;36mWARNING[0m: [022bed54-2d4f-41ef-a4ed-1b47b17c29ca] (NRF-notify) NF has already been added [type:UDM] (../lib/sbi/nnrf-handler.c:1092)
-[32m06/18 08:44:43.391[0m: [[33msbi[0m] [1;32mINFO[0m: [022bed54-2d4f-41ef-a4ed-1b47b17c29ca] (NRF-notify) NF Profile updated [type:UDM] (../lib/sbi/nnrf-handler.c:1104)
-[32m06/18 08:44:43.391[0m: [[33msbi[0m] [1;36mWARNING[0m: NF EndPoint(addr) updated [127.0.0.12:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.391[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.391[0m: [[33msbi[0m] [1;36mWARNING[0m: NF EndPoint(addr) updated [127.0.0.12:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.391[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.391[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.391[0m: [[33msbi[0m] [1;32mINFO[0m: [022bed54-2d4f-41ef-a4ed-1b47b17c29ca] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
-[32m06/18 08:44:43.391[0m: [[33msbi[0m] [1;32mINFO[0m: [022bed54-2d4f-41ef-a4ed-1b47b17c29ca] (NRF-notify) NF Profile updated [type:UDM] (../lib/sbi/nnrf-handler.c:1104)
-[32m06/18 08:44:43.391[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.391[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.391[0m: [[33msbi[0m] [1;32mINFO[0m: [022bed54-2d4f-41ef-a4ed-1b47b17c29ca] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
-[32m06/18 08:44:43.391[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.391[0m: [[33mnrf[0m] [1;32mINFO[0m: [022c9632-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.391778+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.391[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.391[0m: [[33mnrf[0m] [1;32mINFO[0m: [022c9ef2-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.391989+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.392[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.392[0m: [[33msbi[0m] [1;32mINFO[0m: [022c9632-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.391778+00:00 [duration:86400,validity:86399.999431,patch:43199.999715] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.392[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.392[0m: [[33msbi[0m] [1;32mINFO[0m: [022c9ef2-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.391989+00:00 [duration:86400,validity:86399.999503,patch:43199.999751] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.320[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
+[32m06/18 14:05:49.323[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+[32m06/18 14:05:49.323[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nudm-ueau] (../lib/sbi/context.c:1829)
+[32m06/18 14:05:49.323[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nudm-uecm] (../lib/sbi/context.c:1829)
+[32m06/18 14:05:49.323[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nudm-sdm] (../lib/sbi/context.c:1829)
+[32m06/18 14:05:49.323[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:414)
+[32m06/18 14:05:49.323[0m: [[33mapp[0m] [1;32mINFO[0m: UDM initialize...done (../src/udm/app.c:31)
+[32m06/18 14:05:49.324[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.324[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.324[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.324[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.324[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd906254-2d7b-41ef-a518-91c2acf56ad7] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+[32m06/18 14:05:49.324[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../src/scp/sbi-path.c:419)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: [dd906254-2d7b-41ef-a518-91c2acf56ad7] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: [dd906254-2d7b-41ef-a518-91c2acf56ad7] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: [dd906254-2d7b-41ef-a518-91c2acf56ad7] (NRF-notify) NF Profile updated [type:UDM] (../lib/sbi/nnrf-handler.c:1104)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: [dd906254-2d7b-41ef-a518-91c2acf56ad7] (NRF-notify) NF Profile updated [type:UDM] (../lib/sbi/nnrf-handler.c:1104)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.325[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../src/scp/sbi-path.c:419)
+[32m06/18 14:05:49.325[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/scp/sbi-path.c:419)
+[32m06/18 14:05:49.325[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/scp/sbi-path.c:419)
+[32m06/18 14:05:49.325[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.11:7777] (../src/scp/sbi-path.c:419)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;36mWARNING[0m: [dd906254-2d7b-41ef-a518-91c2acf56ad7] (NRF-notify) NF has already been added [type:UDM] (../lib/sbi/nnrf-handler.c:1092)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: [dd906254-2d7b-41ef-a518-91c2acf56ad7] (NRF-notify) NF Profile updated [type:UDM] (../lib/sbi/nnrf-handler.c:1104)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;36mWARNING[0m: NF EndPoint(addr) updated [127.0.0.12:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;36mWARNING[0m: NF EndPoint(addr) updated [127.0.0.12:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: [dd906254-2d7b-41ef-a518-91c2acf56ad7] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: [dd906254-2d7b-41ef-a518-91c2acf56ad7] (NRF-notify) NF Profile updated [type:UDM] (../lib/sbi/nnrf-handler.c:1104)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;36mWARNING[0m: [dd906254-2d7b-41ef-a518-91c2acf56ad7] (NRF-notify) NF has already been added [type:UDM] (../lib/sbi/nnrf-handler.c:1092)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: [dd906254-2d7b-41ef-a518-91c2acf56ad7] (NRF-notify) NF Profile updated [type:UDM] (../lib/sbi/nnrf-handler.c:1104)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;36mWARNING[0m: NF EndPoint(addr) updated [127.0.0.12:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;36mWARNING[0m: NF EndPoint(addr) updated [127.0.0.12:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.325[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.326[0m: [[33msbi[0m] [1;32mINFO[0m: [dd906254-2d7b-41ef-a518-91c2acf56ad7] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+[32m06/18 14:05:49.326[0m: [[33msbi[0m] [1;32mINFO[0m: [dd906254-2d7b-41ef-a518-91c2acf56ad7] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
+[32m06/18 14:05:49.326[0m: [[33msbi[0m] [1;32mINFO[0m: [dd906254-2d7b-41ef-a518-91c2acf56ad7] (NRF-notify) NF Profile updated [type:UDM] (../lib/sbi/nnrf-handler.c:1104)
+[32m06/18 14:05:49.326[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.326[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.326[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.326[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd90ef9e-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.326546+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.326[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.12:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.326[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd90f3a4-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.326643+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.326[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.326[0m: [[33msbi[0m] [1;32mINFO[0m: [dd90ef9e-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.326546+00:00 [duration:86400,validity:86399.999549,patch:43199.999774] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.327[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.327[0m: [[33msbi[0m] [1;32mINFO[0m: [dd90f3a4-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.326643+00:00 [duration:86400,validity:86399.999619,patch:43199.999809] (../lib/sbi/nnrf-handler.c:845)
 Open5GS daemon v2.7.1-35-gd0f6288
 
-[32m06/18 08:44:43.440[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
-[32m06/18 08:44:43.443[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
-[32m06/18 08:44:43.443[0m: [[33mmetrics[0m] [1;32mINFO[0m: metrics_server() [http://127.0.0.13]:9090 (../lib/metrics/prometheus/context.c:299)
-[32m06/18 08:44:43.447[0m: [[33mdbi[0m] [1;32mINFO[0m: MongoDB URI: 'mongodb://mongodb/open5gs' (../lib/dbi/ogs-mongoc.c:130)
-[32m06/18 08:44:43.447[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [npcf-am-policy-control] (../lib/sbi/context.c:1829)
-[32m06/18 08:44:43.447[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [npcf-smpolicycontrol] (../lib/sbi/context.c:1829)
-[32m06/18 08:44:43.447[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [npcf-policyauthorization] (../lib/sbi/context.c:1829)
-[32m06/18 08:44:43.448[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.13]:7777 (../lib/sbi/nghttp2-server.c:414)
-[32m06/18 08:44:43.448[0m: [[33mapp[0m] [1;32mINFO[0m: PCF initialize...done (../src/pcf/app.c:31)
-[32m06/18 08:44:43.448[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.448[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.448[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.448[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.448[0m: [[33mnrf[0m] [1;32mINFO[0m: [0234690c-2d4f-41ef-b2ba-25ff0671993a] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: [0234690c-2d4f-41ef-b2ba-25ff0671993a] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: [0234690c-2d4f-41ef-b2ba-25ff0671993a] (NRF-notify) NF Profile updated [type:PCF] (../lib/sbi/nnrf-handler.c:1104)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.449[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../src/scp/sbi-path.c:419)
-[32m06/18 08:44:43.449[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/scp/sbi-path.c:419)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: [0234690c-2d4f-41ef-b2ba-25ff0671993a] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: [0234690c-2d4f-41ef-b2ba-25ff0671993a] (NRF-notify) NF Profile updated [type:PCF] (../lib/sbi/nnrf-handler.c:1104)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: [0234690c-2d4f-41ef-b2ba-25ff0671993a] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: [0234690c-2d4f-41ef-b2ba-25ff0671993a] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: [0234690c-2d4f-41ef-b2ba-25ff0671993a] (NRF-notify) NF Profile updated [type:PCF] (../lib/sbi/nnrf-handler.c:1104)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.449[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.449[0m: [[33mnrf[0m] [1;32mINFO[0m: [02356af0-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.449635+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.449[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.449[0m: [[33mnrf[0m] [1;32mINFO[0m: [02356e1a-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.449711+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.449[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.449[0m: [[33mnrf[0m] [1;32mINFO[0m: [023570cc-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.449781+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: [02356af0-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.449635+00:00 [duration:86400,validity:86399.999791,patch:43199.999895] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: [02356e1a-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.449711+00:00 [duration:86400,validity:86399.999824,patch:43199.999912] (../lib/sbi/nnrf-handler.c:845)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.449[0m: [[33msbi[0m] [1;32mINFO[0m: [023570cc-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.449781+00:00 [duration:86400,validity:86399.999825,patch:43199.999912] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.373[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
+[32m06/18 14:05:49.376[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+[32m06/18 14:05:49.376[0m: [[33mmetrics[0m] [1;32mINFO[0m: metrics_server() [http://127.0.0.13]:9090 (../lib/metrics/prometheus/context.c:299)
+[32m06/18 14:05:49.380[0m: [[33mdbi[0m] [1;32mINFO[0m: MongoDB URI: 'mongodb://mongodb/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+[32m06/18 14:05:49.380[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [npcf-am-policy-control] (../lib/sbi/context.c:1829)
+[32m06/18 14:05:49.380[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [npcf-smpolicycontrol] (../lib/sbi/context.c:1829)
+[32m06/18 14:05:49.380[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [npcf-policyauthorization] (../lib/sbi/context.c:1829)
+[32m06/18 14:05:49.381[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.13]:7777 (../lib/sbi/nghttp2-server.c:414)
+[32m06/18 14:05:49.381[0m: [[33mapp[0m] [1;32mINFO[0m: PCF initialize...done (../src/pcf/app.c:31)
+[32m06/18 14:05:49.381[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.381[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.381[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.381[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.381[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd987fa2-2d7b-41ef-a4ef-7fc36d60d016] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+[32m06/18 14:05:49.381[0m: [[33msbi[0m] [1;32mINFO[0m: [dd987fa2-2d7b-41ef-a4ef-7fc36d60d016] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
+[32m06/18 14:05:49.381[0m: [[33msbi[0m] [1;32mINFO[0m: [dd987fa2-2d7b-41ef-a4ef-7fc36d60d016] (NRF-notify) NF Profile updated [type:PCF] (../lib/sbi/nnrf-handler.c:1104)
+[32m06/18 14:05:49.382[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.382[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.382[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.382[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.382[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.4:7777] (../src/scp/sbi-path.c:419)
+[32m06/18 14:05:49.382[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/scp/sbi-path.c:419)
+[32m06/18 14:05:49.382[0m: [[33msbi[0m] [1;32mINFO[0m: [dd987fa2-2d7b-41ef-a4ef-7fc36d60d016] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
+[32m06/18 14:05:49.382[0m: [[33msbi[0m] [1;32mINFO[0m: [dd987fa2-2d7b-41ef-a4ef-7fc36d60d016] (NRF-notify) NF Profile updated [type:PCF] (../lib/sbi/nnrf-handler.c:1104)
+[32m06/18 14:05:49.382[0m: [[33msbi[0m] [1;32mINFO[0m: [dd987fa2-2d7b-41ef-a4ef-7fc36d60d016] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
+[32m06/18 14:05:49.382[0m: [[33msbi[0m] [1;32mINFO[0m: [dd987fa2-2d7b-41ef-a4ef-7fc36d60d016] (NRF-notify) NF Profile updated [type:PCF] (../lib/sbi/nnrf-handler.c:1104)
+[32m06/18 14:05:49.382[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.382[0m: [[33msbi[0m] [1;32mINFO[0m: [dd987fa2-2d7b-41ef-a4ef-7fc36d60d016] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+[32m06/18 14:05:49.382[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.382[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.382[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.382[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.382[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd99806e-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.382684+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.382[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.382[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd998762-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.382856+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.382[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.382[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.382[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd998b0e-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.382948+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.382[0m: [[33msbi[0m] [1;32mINFO[0m: [dd99806e-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.382684+00:00 [duration:86400,validity:86399.999726,patch:43199.999863] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.383[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.383[0m: [[33msbi[0m] [1;32mINFO[0m: [dd998762-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.382856+00:00 [duration:86400,validity:86399.999655,patch:43199.999827] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.383[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.383[0m: [[33msbi[0m] [1;32mINFO[0m: [dd998b0e-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.382948+00:00 [duration:86400,validity:86399.999699,patch:43199.999849] (../lib/sbi/nnrf-handler.c:845)
 Open5GS daemon v2.7.1-35-gd0f6288
 
-[32m06/18 08:44:43.483[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
-[32m06/18 08:44:43.484[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
-[32m06/18 08:44:43.484[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nnssf-nsselection] (../lib/sbi/context.c:1829)
-[32m06/18 08:44:43.485[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:414)
-[32m06/18 08:44:43.485[0m: [[33mapp[0m] [1;32mINFO[0m: NSSF initialize...done (../src/nssf/app.c:31)
-[32m06/18 08:44:43.485[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.14:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.485[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.14:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.485[0m: [[33mnrf[0m] [1;32mINFO[0m: [023ac68a-2d4f-41ef-b20b-b30f14aceec3] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
-[32m06/18 08:44:43.485[0m: [[33msbi[0m] [1;32mINFO[0m: [023ac68a-2d4f-41ef-b20b-b30f14aceec3] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
-[32m06/18 08:44:43.485[0m: [[33msbi[0m] [1;32mINFO[0m: [023ac68a-2d4f-41ef-b20b-b30f14aceec3] (NRF-notify) NF Profile updated [type:NSSF] (../lib/sbi/nnrf-handler.c:1104)
-[32m06/18 08:44:43.485[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.14:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.485[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.14:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.485[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/scp/sbi-path.c:419)
-[32m06/18 08:44:43.486[0m: [[33msbi[0m] [1;32mINFO[0m: [023ac68a-2d4f-41ef-b20b-b30f14aceec3] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
-[32m06/18 08:44:43.486[0m: [[33msbi[0m] [1;32mINFO[0m: [023ac68a-2d4f-41ef-b20b-b30f14aceec3] (NRF-notify) NF Profile updated [type:NSSF] (../lib/sbi/nnrf-handler.c:1104)
-[32m06/18 08:44:43.486[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.14:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.486[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.14:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.486[0m: [[33msbi[0m] [1;32mINFO[0m: [023ac68a-2d4f-41ef-b20b-b30f14aceec3] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
-[32m06/18 08:44:43.486[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.14:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.486[0m: [[33mnrf[0m] [1;32mINFO[0m: [023b0ab4-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.486494+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.486[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.486[0m: [[33msbi[0m] [1;32mINFO[0m: [023b0ab4-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.486494+00:00 [duration:86400,validity:86399.999714,patch:43199.999857] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.419[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
+[32m06/18 14:05:49.421[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+[32m06/18 14:05:49.421[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nnssf-nsselection] (../lib/sbi/context.c:1829)
+[32m06/18 14:05:49.422[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:414)
+[32m06/18 14:05:49.422[0m: [[33mapp[0m] [1;32mINFO[0m: NSSF initialize...done (../src/nssf/app.c:31)
+[32m06/18 14:05:49.423[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.14:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.423[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.14:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.423[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd9f6fec-2d7b-41ef-ab94-873bb7939bc7] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+[32m06/18 14:05:49.423[0m: [[33msbi[0m] [1;32mINFO[0m: [dd9f6fec-2d7b-41ef-ab94-873bb7939bc7] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
+[32m06/18 14:05:49.423[0m: [[33msbi[0m] [1;32mINFO[0m: [dd9f6fec-2d7b-41ef-ab94-873bb7939bc7] (NRF-notify) NF Profile updated [type:NSSF] (../lib/sbi/nnrf-handler.c:1104)
+[32m06/18 14:05:49.423[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.14:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.423[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.14:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.423[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.5:7777] (../src/scp/sbi-path.c:419)
+[32m06/18 14:05:49.423[0m: [[33msbi[0m] [1;32mINFO[0m: [dd9f6fec-2d7b-41ef-ab94-873bb7939bc7] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
+[32m06/18 14:05:49.424[0m: [[33msbi[0m] [1;32mINFO[0m: [dd9f6fec-2d7b-41ef-ab94-873bb7939bc7] (NRF-notify) NF Profile updated [type:NSSF] (../lib/sbi/nnrf-handler.c:1104)
+[32m06/18 14:05:49.424[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.14:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.424[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.14:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.424[0m: [[33msbi[0m] [1;32mINFO[0m: [dd9f6fec-2d7b-41ef-ab94-873bb7939bc7] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+[32m06/18 14:05:49.424[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.14:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.424[0m: [[33mnrf[0m] [1;32mINFO[0m: [dd9fdd38-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.424380+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.424[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.424[0m: [[33msbi[0m] [1;32mINFO[0m: [dd9fdd38-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.424380+00:00 [duration:86400,validity:86399.999665,patch:43199.999832] (../lib/sbi/nnrf-handler.c:845)
 Open5GS daemon v2.7.1-35-gd0f6288
 
-[32m06/18 08:44:43.536[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
-[32m06/18 08:44:43.539[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
-[32m06/18 08:44:43.539[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nbsf-management] (../lib/sbi/context.c:1829)
-[32m06/18 08:44:43.539[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.15]:7777 (../lib/sbi/nghttp2-server.c:414)
-[32m06/18 08:44:43.539[0m: [[33mapp[0m] [1;32mINFO[0m: BSF initialize...done (../src/bsf/app.c:31)
-[32m06/18 08:44:43.540[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.15:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.540[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.15:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.540[0m: [[33mnrf[0m] [1;32mINFO[0m: [024310ce-2d4f-41ef-8715-d7cfa0b287e5] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
-[32m06/18 08:44:43.540[0m: [[33msbi[0m] [1;32mINFO[0m: [024310ce-2d4f-41ef-8715-d7cfa0b287e5] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
-[32m06/18 08:44:43.540[0m: [[33msbi[0m] [1;32mINFO[0m: [024310ce-2d4f-41ef-8715-d7cfa0b287e5] (NRF-notify) NF Profile updated [type:BSF] (../lib/sbi/nnrf-handler.c:1104)
-[32m06/18 08:44:43.540[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.15:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.540[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.15:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.540[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../src/scp/sbi-path.c:419)
-[32m06/18 08:44:43.540[0m: [[33msbi[0m] [1;32mINFO[0m: [024310ce-2d4f-41ef-8715-d7cfa0b287e5] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
-[32m06/18 08:44:43.541[0m: [[33msbi[0m] [1;32mINFO[0m: [024310ce-2d4f-41ef-8715-d7cfa0b287e5] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
-[32m06/18 08:44:43.541[0m: [[33msbi[0m] [1;32mINFO[0m: [024310ce-2d4f-41ef-8715-d7cfa0b287e5] (NRF-notify) NF Profile updated [type:BSF] (../lib/sbi/nnrf-handler.c:1104)
-[32m06/18 08:44:43.541[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.15:80] (../lib/sbi/context.c:2195)
-[32m06/18 08:44:43.541[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.15:7777] (../lib/sbi/context.c:1934)
-[32m06/18 08:44:43.541[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.15:7777] (../src/nrf/nnrf-handler.c:418)
-[32m06/18 08:44:43.541[0m: [[33mnrf[0m] [1;32mINFO[0m: [0243657e-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.541250+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
-[32m06/18 08:44:43.541[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
-[32m06/18 08:44:43.541[0m: [[33msbi[0m] [1;32mINFO[0m: [0243657e-2d4f-41ef-8aca-612595ab28f3] Subscription created until 2024-06-19T08:44:43.541250+00:00 [duration:86400,validity:86399.999732,patch:43199.999866] (../lib/sbi/nnrf-handler.c:845)
+[32m06/18 14:05:49.469[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
+[32m06/18 14:05:49.473[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+[32m06/18 14:05:49.473[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nbsf-management] (../lib/sbi/context.c:1829)
+[32m06/18 14:05:49.473[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.15]:7777 (../lib/sbi/nghttp2-server.c:414)
+[32m06/18 14:05:49.473[0m: [[33mapp[0m] [1;32mINFO[0m: BSF initialize...done (../src/bsf/app.c:31)
+[32m06/18 14:05:49.474[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.15:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.474[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.15:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.474[0m: [[33mnrf[0m] [1;32mINFO[0m: [dda7437a-2d7b-41ef-936d-09c63d09efe3] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+[32m06/18 14:05:49.474[0m: [[33msbi[0m] [1;32mINFO[0m: [dda7437a-2d7b-41ef-936d-09c63d09efe3] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
+[32m06/18 14:05:49.474[0m: [[33msbi[0m] [1;32mINFO[0m: [dda7437a-2d7b-41ef-936d-09c63d09efe3] (NRF-notify) NF Profile updated [type:BSF] (../lib/sbi/nnrf-handler.c:1104)
+[32m06/18 14:05:49.474[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.15:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.474[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.15:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.474[0m: [[33mscp[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.13:7777] (../src/scp/sbi-path.c:419)
+[32m06/18 14:05:49.475[0m: [[33msbi[0m] [1;32mINFO[0m: [dda7437a-2d7b-41ef-936d-09c63d09efe3] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+[32m06/18 14:05:49.475[0m: [[33msbi[0m] [1;32mINFO[0m: [dda7437a-2d7b-41ef-936d-09c63d09efe3] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:1090)
+[32m06/18 14:05:49.475[0m: [[33msbi[0m] [1;32mINFO[0m: [dda7437a-2d7b-41ef-936d-09c63d09efe3] (NRF-notify) NF Profile updated [type:BSF] (../lib/sbi/nnrf-handler.c:1104)
+[32m06/18 14:05:49.475[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.15:80] (../lib/sbi/context.c:2195)
+[32m06/18 14:05:49.475[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.15:7777] (../lib/sbi/context.c:1934)
+[32m06/18 14:05:49.475[0m: [[33mnrf[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.15:7777] (../src/nrf/nnrf-handler.c:418)
+[32m06/18 14:05:49.475[0m: [[33mnrf[0m] [1;32mINFO[0m: [dda7b7a6-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.475857+00:00 [validity_duration:86400] (../src/nrf/nnrf-handler.c:446)
+[32m06/18 14:05:49.476[0m: [[33msbi[0m] [1;32mINFO[0m: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:923)
+[32m06/18 14:05:49.476[0m: [[33msbi[0m] [1;32mINFO[0m: [dda7b7a6-2d7b-41ef-8388-63d8d37f6e00] Subscription created until 2024-06-19T14:05:49.475857+00:00 [duration:86400,validity:86399.999566,patch:43199.999783] (../lib/sbi/nnrf-handler.c:845)
 Open5GS daemon v2.7.1-35-gd0f6288
 
-[32m06/18 08:44:43.589[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
+[32m06/18 14:05:49.524[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/open5gs/build/configs/sample.yaml' (../lib/app/ogs-init.c:133)
