@@ -2,16 +2,19 @@ FROM ubuntu:20.04
 
 ENV DEBIAN_FRONTEND noninteractive
 
-
 # Install necessary dependencies
 RUN apt-get update && \
-    apt-get install -y git build-essential g++ wget libsctp-dev iproute2 nano iputils-ping
+    apt-get install -y git build-essential g++ wget libsctp-dev iproute2 nano iputils-ping netcat && \
+    apt-get clean
 
 # Install CMake 3.21
 RUN wget -O cmake.sh https://github.com/Kitware/CMake/releases/download/v3.21.0/cmake-3.21.0-linux-x86_64.sh && \
     chmod +x cmake.sh && \
     ./cmake.sh --skip-license --prefix=/usr/local && \
     rm cmake.sh
+
+# Install yq
+RUN wget https://github.com/mikefarah/yq/releases/download/v4.12.2/yq_linux_amd64 -O /usr/bin/yq && chmod +x /usr/bin/yq
 
 # Clone the UERANSIM repository
 RUN git clone https://github.com/aligungr/UERANSIM.git /ueransim
