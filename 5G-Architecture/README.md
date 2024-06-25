@@ -7,7 +7,12 @@ In this part, unlike what has been done on the original repository (https://gith
  
  
 ## Deployment
-   All the files are in the deployment folder and, in theory, using the command `export NUM_UE=2 && sudo -E docker-compose up -d` will launch the environment. Note that you won't have to touch to any file to deploy the network. The number of `UEs`deployed can be adjusted at our will.
+   All the files are in the deployment folder and, in theory, using the commands:
+  - `python3 generate_docker_compose.py num_ue` ,
+  - `sudo docker-compose up --build --force-recreate -d` ,
+  - then `sudo docker-compose --profile ran up --build -d`
+    
+will launch the environment. Note that you won't have to touch to any file to deploy the network. The number of `UEs`deployed can be adjusted at our will by replacing `num_ue`.
 
 Once the docker-compose is executed, I recommend redirecting the log outputs and errors of each container in a dedicated file with  `docker logs deployment_*_1 &> log_*.txt`. We should now find in those files evidence of successful execution such as : `NG Setup procedure is successful` within the gnB log and `PDU Session establishment is successful` within the UE log.
 
