@@ -92,6 +92,7 @@ def generate_docker_compose(num_ue):
                 'volumes': ['shared-data:/shared-data'],
                 'command': './entrypoint-gnb.sh',
                 'depends_on': ['open5gs','mongodb'],
+                'profiles' : ['ran'],
                 'networks': OrderedDict({
                     'vnet': OrderedDict({
                         'ipv4_address': '173.22.0.5'
@@ -116,6 +117,7 @@ def generate_docker_compose(num_ue):
             'volumes': ['shared-data:/shared-data'],
             'command': './entrypoint-ue.sh',
             'depends_on': ['enb-ueransim'],
+            'profiles' : ['ran'],
             'networks': OrderedDict({
                 'vnet': OrderedDict({
                     'ipv4_address': ue_ip

@@ -42,7 +42,7 @@ services:
     environment:
     - DB_URI=mongodb://mongodb/open5gs
     - WAIT_HOSTS=mongodb:27017
-    - UE_COUNT=4
+    - UE_COUNT=64
     depends_on:
     - mongodb
     ports:
@@ -85,6 +85,8 @@ services:
     depends_on:
     - open5gs
     - mongodb
+    profiles:
+    - ran
     networks:
       vnet:
         ipv4_address: 173.22.0.5
@@ -102,6 +104,8 @@ services:
     command: ./entrypoint-ue.sh
     depends_on:
     - enb-ueransim
+    profiles:
+    - ran
     networks:
       vnet:
         ipv4_address: 173.22.0.9
@@ -119,6 +123,8 @@ services:
     command: ./entrypoint-ue.sh
     depends_on:
     - enb-ueransim
+    profiles:
+    - ran
     networks:
       vnet:
         ipv4_address: 173.22.0.10
@@ -136,6 +142,8 @@ services:
     command: ./entrypoint-ue.sh
     depends_on:
     - enb-ueransim
+    profiles:
+    - ran
     networks:
       vnet:
         ipv4_address: 173.22.0.11
@@ -153,6 +161,1148 @@ services:
     command: ./entrypoint-ue.sh
     depends_on:
     - enb-ueransim
+    profiles:
+    - ran
     networks:
       vnet:
         ipv4_address: 173.22.0.12
+  ue-ueransim-5:
+    hostname: 5g-ue-5
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.13
+  ue-ueransim-6:
+    hostname: 5g-ue-6
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.14
+  ue-ueransim-7:
+    hostname: 5g-ue-7
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.15
+  ue-ueransim-8:
+    hostname: 5g-ue-8
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.16
+  ue-ueransim-9:
+    hostname: 5g-ue-9
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.17
+  ue-ueransim-10:
+    hostname: 5g-ue-10
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.18
+  ue-ueransim-11:
+    hostname: 5g-ue-11
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.19
+  ue-ueransim-12:
+    hostname: 5g-ue-12
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.20
+  ue-ueransim-13:
+    hostname: 5g-ue-13
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.21
+  ue-ueransim-14:
+    hostname: 5g-ue-14
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.22
+  ue-ueransim-15:
+    hostname: 5g-ue-15
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.23
+  ue-ueransim-16:
+    hostname: 5g-ue-16
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.24
+  ue-ueransim-17:
+    hostname: 5g-ue-17
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.25
+  ue-ueransim-18:
+    hostname: 5g-ue-18
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.26
+  ue-ueransim-19:
+    hostname: 5g-ue-19
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.27
+  ue-ueransim-20:
+    hostname: 5g-ue-20
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.28
+  ue-ueransim-21:
+    hostname: 5g-ue-21
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.29
+  ue-ueransim-22:
+    hostname: 5g-ue-22
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.30
+  ue-ueransim-23:
+    hostname: 5g-ue-23
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.31
+  ue-ueransim-24:
+    hostname: 5g-ue-24
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.32
+  ue-ueransim-25:
+    hostname: 5g-ue-25
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.33
+  ue-ueransim-26:
+    hostname: 5g-ue-26
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.34
+  ue-ueransim-27:
+    hostname: 5g-ue-27
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.35
+  ue-ueransim-28:
+    hostname: 5g-ue-28
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.36
+  ue-ueransim-29:
+    hostname: 5g-ue-29
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.37
+  ue-ueransim-30:
+    hostname: 5g-ue-30
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.38
+  ue-ueransim-31:
+    hostname: 5g-ue-31
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.39
+  ue-ueransim-32:
+    hostname: 5g-ue-32
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.40
+  ue-ueransim-33:
+    hostname: 5g-ue-33
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.41
+  ue-ueransim-34:
+    hostname: 5g-ue-34
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.42
+  ue-ueransim-35:
+    hostname: 5g-ue-35
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.43
+  ue-ueransim-36:
+    hostname: 5g-ue-36
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.44
+  ue-ueransim-37:
+    hostname: 5g-ue-37
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.45
+  ue-ueransim-38:
+    hostname: 5g-ue-38
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.46
+  ue-ueransim-39:
+    hostname: 5g-ue-39
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.47
+  ue-ueransim-40:
+    hostname: 5g-ue-40
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.48
+  ue-ueransim-41:
+    hostname: 5g-ue-41
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.49
+  ue-ueransim-42:
+    hostname: 5g-ue-42
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.50
+  ue-ueransim-43:
+    hostname: 5g-ue-43
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.51
+  ue-ueransim-44:
+    hostname: 5g-ue-44
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.52
+  ue-ueransim-45:
+    hostname: 5g-ue-45
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.53
+  ue-ueransim-46:
+    hostname: 5g-ue-46
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.54
+  ue-ueransim-47:
+    hostname: 5g-ue-47
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.55
+  ue-ueransim-48:
+    hostname: 5g-ue-48
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.56
+  ue-ueransim-49:
+    hostname: 5g-ue-49
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.57
+  ue-ueransim-50:
+    hostname: 5g-ue-50
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.58
+  ue-ueransim-51:
+    hostname: 5g-ue-51
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.59
+  ue-ueransim-52:
+    hostname: 5g-ue-52
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.60
+  ue-ueransim-53:
+    hostname: 5g-ue-53
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.61
+  ue-ueransim-54:
+    hostname: 5g-ue-54
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.62
+  ue-ueransim-55:
+    hostname: 5g-ue-55
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.63
+  ue-ueransim-56:
+    hostname: 5g-ue-56
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.64
+  ue-ueransim-57:
+    hostname: 5g-ue-57
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.65
+  ue-ueransim-58:
+    hostname: 5g-ue-58
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.66
+  ue-ueransim-59:
+    hostname: 5g-ue-59
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.67
+  ue-ueransim-60:
+    hostname: 5g-ue-60
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.68
+  ue-ueransim-61:
+    hostname: 5g-ue-61
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.69
+  ue-ueransim-62:
+    hostname: 5g-ue-62
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.70
+  ue-ueransim-63:
+    hostname: 5g-ue-63
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.71
+  ue-ueransim-64:
+    hostname: 5g-ue-64
+    image: 5g-ue
+    privileged: true
+    build:
+      context: .
+      dockerfile: Dockerfile.ue
+    devices:
+    - /dev/net/tun:/dev/net/tun
+    volumes:
+    - shared-data:/shared-data
+    command: ./entrypoint-ue.sh
+    depends_on:
+    - enb-ueransim
+    profiles:
+    - ran
+    networks:
+      vnet:
+        ipv4_address: 173.22.0.72

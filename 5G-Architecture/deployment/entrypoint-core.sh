@@ -9,14 +9,11 @@ imsis=$(grep -oP "imsi: '\K\d+" db.txt)
 for imsi in $imsis; do
     ./../misc/db/open5gs-dbctl remove $imsi
 done
-
 # Step 3: Add new UEs
 for i in $(seq -f "%03g" 1 $UE_COUNT); do
     IMSI="999700000000$(printf "%03d" $((10#$i)))"
     ./../misc/db/open5gs-dbctl add $IMSI 465B5CE8B199B49FAA5F0A2EE238A6BC E8ED289DEBA952E4283B54E88E6183CA;
 done
-
-
 
 
 # Get the IP address of the Core container
@@ -29,15 +26,34 @@ echo $CORE_IP > /shared-data/core_ip.txt
 export CORE_IP
 
 # Update the configuration files with the Core IP address using the yq 
-yq eval '.upf.gtpu.server[0].address = env(CORE_IP)' configs/sample.yaml -i
-yq eval '.amf.ngap.server[0].address = env(CORE_IP)' configs/sample.yaml -i
+#yq eval '.upf.gtpu.server[0].address = env(CORE_IP)' configs/sample.yaml -i
+#yq eval '.amf.ngap.server[0].address = env(CORE_IP)' configs/sample.yaml -i
+
+yq eval '.upf.gtpu.server[0].address = env(CORE_IP)' ../install/etc/open5gs/upf.yaml -i
+yq eval '.amf.ngap.server[0].address = env(CORE_IP)' ../install/etc/open5gs/amf.yaml -i
 
 
 
 # Start Open5GS Core services
-./tests/app/5gc &
+#./tests/app/5gc 
 
 
+
+
+
+
+./../install/bin/open5gs-nrfd -dD &
+./../install/bin/open5gs-scpd -dD &
+#./../install/bin/open5gs-seppd -dD &
+./../install/bin/open5gs-amfd -dD &
+./../install/bin/open5gs-smfd -dD &
+./../install/bin/open5gs-upfd -dD &
+./../install/bin/open5gs-ausfd -dD &
+./../install/bin/open5gs-udmd -dD &
+./../install/bin/open5gs-pcfd -dD &
+./../install/bin/open5gs-nssfd -dD &
+./../install/bin/open5gs-bsfd -dD &
+./../install/bin/open5gs-udrd -dD &
 
 
 
